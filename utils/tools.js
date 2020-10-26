@@ -8,7 +8,17 @@ const getRandomComponent = arr => {
     return arr[randomIndex].name;
 }
 
-const generateScore = async() => {
+
+const generateTool = str => {
+    if (str === 'score') return getScore();
+    if (str === 'npc') return getNPC();
+    if (str === 'ghost') return getGhost();
+    if (str === 'demon') return getDemon();
+    if (str === 'cult') return getCult();
+}
+
+
+const getScore = async() => {
     try {
         const targets = await db.Component.find({tooltype: 'Score', category: 'CT'});
         const jobs = await db.Component.find({tooltype: 'Score', category: 'W'});
@@ -16,16 +26,68 @@ const generateScore = async() => {
         const people = await db.Component.find({tooltype: 'Score', category: 'CP'});
         const factions = await db.Component.find({tooltype: 'Score', category: 'CF'})
 
-
-        console.log('Client or Target: ', getRandomComponent(targets));
-        console.log('Job Type: ', getRandomComponent(jobs));
-        console.log('Twist or Complication: ', getRandomComponent(twists));
-        console.log('Connected NPC: ', getRandomComponent(people));
-        console.log('Connected Faction: ', getRandomComponent(factions));
+        return {
+            "CT": getRandomComponent(targets),
+            "W": getRandomComponent(jobs),
+            "TW": getRandomComponent(twists),
+            "CP": getRandomComponent(people),
+            "CF": getRandomComponent(factions)
+        }
 
     } catch (error) {
         console.log(error)
     }
 }
 
-generateScore();
+const getNPC = async() => {
+    try {
+        const looks = await db.Component.find({tooltype: 'NPC', category: 'L'});
+        const goals = await db.Component.find({tooltype: 'NPC', category: 'G'});
+        const methods = await db.Component.find({tooltype: 'NPC', category: 'PM'});
+        const professions = await db.Component.find({tooltype: 'NPC', category: 'P'});
+        const traits  = await db.Component.find({tooltype: 'NPC', category: 'T'});
+        const interests = await db.Component.find({tooltype: 'NPC', category: 'I'});
+        const quirks = await db.Component.find({tooltype: 'NPC', category: 'Q'});
+        const heritages = await db.Component.find({tooltype: 'NPC', category: 'H'});
+        const styles = await db.Component.find({tooltype: 'NPC', category: 'S'});
+        const names = await db.Component.find({tooltype: 'NPC', category: 'N'});
+        const surnames = await db.Component.find({tooltype: 'NPC', category: 'FN'});
+        const aliases  = await db.Component.find({tooltype: 'NPC', category: 'A'});
+
+        return {
+            "L": getRandomComponent(looks),
+            "G": getRandomComponent(goals),
+            "PM": getRandomComponent(methods),
+            "P": getRandomComponent(professions),
+            "T": getRandomComponent(traits),
+            "I": getRandomComponent(interests),
+            "Q": getRandomComponent(quirks),
+            "H": getRandomComponent(heritages),
+            "S": getRandomComponent(styles),
+            "N": getRandomComponent(names),
+            "FN": getRandomComponent(surnames),
+            "A": getRandomComponent(aliases)
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+const getGhost = async() => {
+
+}
+
+const getDemon = async() => {
+
+}
+
+const getCult = async() => {
+
+}
+
+
+
+
+module.exports = {
+    generateTool,
+}
