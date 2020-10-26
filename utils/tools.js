@@ -89,7 +89,23 @@ const getGhost = async() => {
 }
 
 const getDemon = async() => {
+    try {
+        const names = await db.Component.find({tooltype: 'Demon', category: 'N'});
+        const features = await db.Component.find({tooltype: 'Demon', category: 'F'});
+        const aspects = await db.Component.find({tooltype: 'Demon', category: 'AS'});
+        const affinities= await db.Component.find({tooltype: 'Demon', category: 'AF'});
+        const desires = await db.Component.find({tooltype: 'Demon', category: 'D'});
 
+        return {
+            "N": getRandomComponent(names),
+            "F": getRandomComponent(features),
+            "AS": getRandomComponent(aspects),
+            "AF": getRandomComponent(affinities),
+            "D": getRandomComponent(desires)
+        }
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 const getCult = async() => {
