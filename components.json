@@ -119,6 +119,3681 @@
             "name": "Whisper or Cultist",
             "tooltype": "Score",
             "category": "CT"
+        },
+        {
+            "name": "Stalking or Surveillance",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Sabotage or Arson",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Lift or Plant",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Poison or Arrange Accident",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Burglary or Heist",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Impersonate or Misdirect",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Assassinate",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Disappear or Ransom",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Terrorize or Extort",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Destroy or Deface",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Raid or Defend",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Rob or Strong-arm",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Escort or Security",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Smuggle or Courier",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Blackmail or Discredit",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Con or Espionage",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Locate or Hide",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Negotiate or Threaten",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Curse or Sanctify",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Banish or Summon",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Extract Essence",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Place or Remove Runes",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Perform or Stop Ritual",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "Hollow or Revivify",
+            "tooltype": "Score",
+            "category": "W"
+        },
+        {
+            "name": "An element is a cover for heretic spirit cult practices",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "An occultist has foreseen this job and warned the parties involved",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "Rogue spirits possess some/most/all of the people involved",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "Rogue spirits haunt the location",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "The job furthers a demon's secret agenda",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "The job furthers a vampire's secret agenda",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "An element is a front for a criminal enterprise",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "A dangerous gang uses the location",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "The job is a trap laid by your enemies",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "The job is a test for another job",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "The job furthers a merchant lord's secret agenda",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "The job furthers a crime boss's secret agenda",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "The job requires travel by electro-rail",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "Must visit the deathlands to do the job",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "The job requires sea travel",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "The location moves around (site changes, it's on a vehicle, etc.)",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "The job furthers a revolutionary's secret agenda",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "The job furthers a city offcial's secret agenda",
+            "tooltype": "Score",
+            "category": "TW"
+        },
+        {
+            "name": "PC Friend",
+            "tooltype": "Score",
+            "category": "CP"
+        },
+        {
+            "name": "PC Rival",
+            "tooltype": "Score",
+            "category": "CP"
+        },
+        {
+            "name": "PC Vice Purveyor",
+            "tooltype": "Score",
+            "category": "CP"
+        },
+        {
+            "name": "Crew Contact",
+            "tooltype": "Score",
+            "category": "CP"
+        },
+        {
+            "name": "City Notable",
+            "tooltype": "Score",
+            "category": "CP"
+        },
+        {
+            "name": "Ghost, Demon, or God",
+            "tooltype": "Score",
+            "category": "CP"
+        },
+        {
+            "name": "The Unseen",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Lord Scurlock",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Circle of Flame",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Lampblacks",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Dimmer Sisters",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Billhooks",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Gray Cloaks",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Fog Hounds",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "City Council or The Foundation",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Spirit Wardens",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Imperial Military",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Sparkwrights",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "A Consulate",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Leviathan Hunters",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Gondoliers or Cabbies",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Church of the Ecstasy of the Flesh",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Forgotten Gods",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Skovlander Refugees",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Silver Nails",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Hive",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Crows",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Red Sashes",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Grinders",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Wraiths",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Ulf Ironborn",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Lost",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Ironhook Prison",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Bluecoats or Inspectors",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Laborers or Servants",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Cyphers or Ink Rakes",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Ministry of Preservation",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Sailors or Dockers",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Rail Jacks or The Brigade",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "The Weeping Lady",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Path ofEchoes or The Reconciled",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Deathlands Scavengers",
+            "tooltype": "Score",
+            "category": "CF"
+        },
+        {
+            "name": "Large",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Lovely",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Weathered",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Chiseled",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Handsome",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Athletic",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Slim",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Dark",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Fair",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Stout",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Delicate",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Scarred",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Bony",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Worn",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Rough",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Plump",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Wiry",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Striking",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Short",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Tall",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Sexy",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Wild",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Elegant",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Stooped",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Cute",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Plain",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Old",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Young",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Stylish",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Strange",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Disfigured/Maimed",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Glasses/Monocole",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Prosthetic",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Long Hair/Beard/Wig",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Shorn/Bald",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Tattooed",
+            "tooltype": "NPC",
+            "category": "L"
+        },
+        {
+            "name": "Wealth",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Power",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Authority",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Prestige/Fame",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Control",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Knowledge",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Pleasure",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Revenge",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Freedom",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Achievement",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Happiness",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Infamy",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Respect",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Love",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Change",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Chaos/Destruction",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Justice",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Cooperation",
+            "tooltype": "NPC",
+            "category": "G"
+        },
+        {
+            "name": "Violence",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Threats",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Negotiation",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Study",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Manipulation",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Strategy",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Theft",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Arcane",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Commerce",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Hard Work",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Law/Politics",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Sabotage",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Subterfuge",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Alchemy",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Blackmail",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Teamwork",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Espionage",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Chaos",
+            "tooltype": "NPC",
+            "category": "PM"
+        },
+        {
+            "name": "Baker",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Barber",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Blacksmith",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Brewer",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Butcher",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Carpenter",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Cartwright",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Chandler",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Clerk",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Cobbler",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Cooper",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Cultivator",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Driver",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Dyer",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Embroiderer",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Fishmonger",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Gondolier",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Guard",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Leatherworker",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Mason",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Merchant",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Roofer",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Ropemaker",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Rug Maker",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Servant",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Shipwright",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Criminal",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Tailor",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Tanner",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Tinkerer",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Vendor",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Weaver",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Woodworker",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Goat Herd",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Messenger",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Sailor",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Advocate",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Architecht",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Artist",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Author",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Bailiff",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Apiarist",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Banker",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Bounty Hunter",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Clockmaker",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Courtesan",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Furrier",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Glass Blower",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Diplomat",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Jailer",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Jeweler",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Leech",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Locksmith",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Magistrate",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Musician",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Physicker",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Plumber",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Printer",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Scholar",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Scribe",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Sparkwright",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Tax Collector",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Treasurer",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Whisper",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Composer",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Steward",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Captain",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Spirit Warden",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Journalist",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Explorer",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Rail Jack",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Soldier",
+            "tooltype": "NPC",
+            "category": "P"
+        },
+        {
+            "name": "Charming",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Cold",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Cavalier",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Brash",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Suspicious",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Obsessive",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Shrewd",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Quiet",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Moody",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Fierce",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Careless",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Secretive",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Ruthless",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Calculating",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Defiant",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Gracious",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Insightful",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Dishonest",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Patient",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Vicious",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Sophisticated",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Paranoid",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Enthusiastic",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Elitist",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Savage",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Cooperative",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Arrogant",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Confident",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Vain",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Daring",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Volatile",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Candid",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Subtle",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Melancholy",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Enigmatic",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Calm",
+            "tooltype": "NPC",
+            "category": "T"
+        },
+        {
+            "name": "Fine whiskey/wine/beer",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Fine food/restaurants",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Fine clothes/jewelry/furs",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Fine arts/opera/theater",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Painting/drawing/sculpture",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "History/legends",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Architecture/furnishings",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Poetry/novels/writing",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Pit-fighting/duels",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Forgotten gods",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "The Church of the Ecstasy of the Flesh",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "The Path of Echoes",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "The Weeping Lady/charity",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Antiques/artifacts/curios",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Horses/riding",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Gadgets/new technology",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Weapons collecting",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Music/instruments/dance",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Hunting/shooting",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Cooking/gardening",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Gambling/cards/dice",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Natural philosophy",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Drugs/essences/tobacco",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Lovers/romance/trysts",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Parties/social events",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Exploration/adventure",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Pets (birds/dogs/cats)",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Craft (leatherwork, etc.)",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Ships/boating",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Politics/journalism",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Arcane books/rituals",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Spectrology/electroplasm",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Alchemy/medicine",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Essences/alchemy",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Demon lore/legends",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Pre-cataclysm legends",
+            "tooltype": "NPC",
+            "category": "I"
+        },
+        {
+            "name": "Supersitious -- believes in signs/magic numbers",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Devoted to their family",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Married into important/powerful family",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Holds their position to spy for another faction",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Reclusive -- prefers to interact via messages",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Massive debts (to banks/criminals/family)",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Blind to flaws in friends/allies/family/etc.",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Once hollowed, then restored -- immune to spirits",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Has chronic illness that requires frequent care",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Secretly (openly?) controlled by possessing spirits",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Serves a demon's agenda (knowingly or not)",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Proud of heritage/traditions/native language",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Concerned with appearances/gossip/peers",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Drug/alcohol abuser -- often impaired by their vice",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Holds their position due to blackmail",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Relies on council to make decisions",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Involved with war crimes from the Unity War",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Leads a double life using a cover identity",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Black sheep/outcast from a family or organization",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "In prison or under house arrest",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Well-traveled -- connections outside Doskvol",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Revolutioinary -- plots against the Imperium",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Inherited their position -- may not deserve/want it",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Celebrity -- popularized in print/song/theater",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Scandalous reputation (deserved or not)",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Surrounded by sycophants/supplicants/toadies",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Spotless reputation -- highly regarded",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Bigoted against culture/belief/social class",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Visionary -- holds radical views for the future",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Cursed/haunted/harassed by spirits or demons",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Intense, unreasonable phobia or loathing",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Extensive education on every scholarly subject",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Keeps detailed journals/notes/records/ledgers",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Is blindly faithful to an ideal/group/tradition",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Deeply traditional -- opposed to new ideas",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "A fraud -- some important aspect is fabricated",
+            "tooltype": "NPC",
+            "category": "Q"
+        },
+        {
+            "name": "Akorosi",
+            "tooltype": "NPC",
+            "category": "H"
+        },
+        {
+            "name": "Iruvian",
+            "tooltype": "NPC",
+            "category": "H"
+        },
+        {
+            "name": "Dagger Islander",
+            "tooltype": "NPC",
+            "category": "H"
+        },
+        {
+            "name": "Severosi",
+            "tooltype": "NPC",
+            "category": "H"
+        },
+        {
+            "name": "Tycherosi",
+            "tooltype": "NPC",
+            "category": "H"
+        },
+        {
+            "name": "Skovlander",
+            "tooltype": "NPC",
+            "category": "H"
+        },
+        {
+            "name": "Tricorn Hat",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Long Coat",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Hood & Veil",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Short Cloak",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Knit Cap",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Slim Jacket",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Hooded Coat",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Tall Boots",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Work Boots",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Mask & Robes",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Suit & Vest",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Collared Shirt",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Suspenders",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Rough Tunic",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Skirt & Blouse",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Wide Belt",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Fitted Dress",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Heavy Cloak",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Thick Greatcoat",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Soft Boots",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Loose Silks",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Sharp Trousers",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Waxed Coat",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Long Scarf",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Leathers",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Eelskin Bodysuit",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Hide & Furs",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Uniform",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Tatters",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Fitted Leggings",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Apron",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Heavy Gloves",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Face Mask",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Tool Belt",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Crutches",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Cane",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Wheelchair",
+            "tooltype": "NPC",
+            "category": "S"
+        },
+        {
+            "name": "Adric",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Aldo",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Amosen",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Andrel",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Arden",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Arlyn",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Arquo",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Arvus",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Ashlyn",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Branon",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Brace",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Brance",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Brena",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Bricks",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Candra",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Carissa",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Carro",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Casslyn",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Cavelle",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Clave",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Corille",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Cross",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Crowl",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Cyrene",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Daphnia",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Drav",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Edlun",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Emeline",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Grine",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Helles",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Hix",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Holtz",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Kamelin",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Kelyr",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Kobb",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Kristov",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Laudius",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Lauria",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Lenia",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Lizete",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Lorette",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Lucella",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Lynthia",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Mara",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Milos",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Morlan",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Myre",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Narcus",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Naria",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Noggs",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Odrienne",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Orlan",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Phin",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Polonia",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Quess",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Remira",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Ring",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Roethe",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Sesereth",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Sethla",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Skannon",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Stavrul",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Stev",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Syra",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Talitha",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Tesslyn",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Thena",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Timoth",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Tocker",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Una",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Vaurin",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Veleris",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Veretta",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Vestine",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Vey",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Volette",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Vond",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Weaver",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Wester",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Zamira",
+            "tooltype": "NPC",
+            "category": "N"
+        },
+        {
+            "name": "Ankhayat",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Arran",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Athanoch",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Basran",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Boden",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Booker",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Bowman",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Breakiron",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Brogan",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Clelland",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Clermont",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Coleburn",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Comber",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Daava",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Dalmore",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Danfield",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Dunvil",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Farros",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Grine",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Haig",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Helker",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Helles",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Hellyers",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Jayan",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Jeduin",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Kardera",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Karstas",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Keel",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Kessarin",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Kinclaith",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Lomond",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Maroden",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Michter",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Morriston",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Penderyn",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Prichard",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Rowan",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Sevoy",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Skelkallan",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Skora",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Slane",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Strangford",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Strathmill",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Templeton",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Tyrconnell",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Vale",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Walund",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Welker",
+            "tooltype": "NPC",
+            "category": "FN"
+        },
+        {
+            "name": "Bell",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Birch",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Bricks",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Bug",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Chime",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Coil",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Cricket",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Cross",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Crow",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Echo",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Flint",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Frog",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Frost",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Grip",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Gunner",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Hammer",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Hook",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Junker",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Mist",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Moon",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Nail",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Needle",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Ogre",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Pool",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Ring",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Ruby",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Silver",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Skinner",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Song",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Spur",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Tackle",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Thistle",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Thorn",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Tick-Tock",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Twelves",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Vixen",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Whip",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Wicker",
+            "tooltype": "NPC",
+            "category": "A"
+        },
+        {
+            "name": "Jealous",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Desperate",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Violent",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Hysterical",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Skittish",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Fleeting",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Curious",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Deceptive",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Clever",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Probing",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Knowledgeable",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Charming",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Prophetic",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Insightful",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "True",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Revelatory",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Guiding",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Instructive",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Reactive",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Territorial",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Dominant",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Insistent",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Bold",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Demanding",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Angry",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Volatile",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Aggressive",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Wild",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Savage",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Vengeful",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Mad",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Chaotic",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Bizarre",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Destructive",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Insane",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Vile",
+            "tooltype": "Ghost",
+            "category": "T"
+        },
+        {
+            "name": "Frost/Chill",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Cold Wind",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Faint visions of local past",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Electrical discharge",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Weird shadows",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Faint echoes",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Mist/Fog",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Rushing wind",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Intense visual echoes",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Intense magnetism",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Disturbing shadows",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Thunderous sounds",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Freezing fog",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Storm winds",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Pitch darkness",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Lightning",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Clutching shadows",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Voices in your head",
+            "tooltype": "Ghost",
+            "category": "SE"
+        },
+        {
+            "name": "Korvaeth",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Sevraxis",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Argaz",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Zalvroxos",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Kethtera",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Arkeveron",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Ixis",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Kyronax",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Voldranai",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Esketra",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Ardranax",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Kylastra",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Oryxus",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Ahazu",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Tyraxis",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Azarax",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Vaskari",
+            "tooltype": "Demon",
+            "category": "N"
+        },
+        {
+            "name": "Black shark eyes",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Scales (onyx/iridescent/crystalline/metallic/etc.)",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Razor-sharp claws",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Bony protrusions",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Multiple eyes",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Lashing tail",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Leathery wings",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Spines",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Dripping ichor",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Glowing eyes or markings",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Hair or fur (drifting as if underwater/buring with a cool fire/etc.)",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Feathers",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Multiple arms",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Tentacles",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Hard shell/metallic plates",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Lights dim or flare",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Plants wither or grow wildly",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Mechanisms grinds to a halt",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Liquid freezes/boils/turns to blood or ashes",
+            "tooltype": "Demon",
+            "category": "F"
+        },
+        {
+            "name": "Humanoid with bestial/elemental features",
+            "tooltype": "Demon",
+            "category": "AS"
+        },
+        {
+            "name": "Animal",
+            "tooltype": "Demon",
+            "category": "AS"
+        },
+        {
+            "name": "Monstrous",
+            "tooltype": "Demon",
+            "category": "AS"
+        },
+        {
+            "name": "Amorphous",
+            "tooltype": "Demon",
+            "category": "AS"
+        },
+        {
+            "name": "Sea/Water",
+            "tooltype": "Demon",
+            "category": "AF"
+        },
+        {
+            "name": "Darkness",
+            "tooltype": "Demon",
+            "category": "AF"
+        },
+        {
+            "name": "Earth/Metal",
+            "tooltype": "Demon",
+            "category": "AF"
+        },
+        {
+            "name": "Fire/Smoke",
+            "tooltype": "Demon",
+            "category": "AF"
+        },
+        {
+            "name": "Sky/Stars",
+            "tooltype": "Demon",
+            "category": "AF"
+        },
+        {
+            "name": "Storm/Wind",
+            "tooltype": "Demon",
+            "category": "AF"
+        },
+        {
+            "name": "Mayhem",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Murder",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Justice",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Corruption",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Power",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Control",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Knowledge",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Pleasure",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Suffering",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "War",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Revenge",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Chaos",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Freedom",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Savagery",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Manipulation",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Deception",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Fear",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "Achievement",
+            "tooltype": "Demon",
+            "category": "D"
+        },
+        {
+            "name": "The One Within Many",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Silver Fire",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Rapturous Chord",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Fallen Star",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Lord of the Depths",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Silent Song",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Lady of Thorns",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "Our Blood Spilled in Glory",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Ram",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Empty Vessel",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Closed Eye",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Hand of Sorrow",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "That Which Hungers",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Thousand Faces",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Web of Pain",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Pillars of Night",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Burned King",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Father of the Abyss",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Forsaken Legion",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Unbroken Sun",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Revelation",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Radiant Word",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Shrouded Queen",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Reconciler",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Cloud of Woe",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Broken Circle",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Conqueror",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "She Who Slays in Darkness",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Dream Beyond Death",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Blood Dimmed Tide",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Guardian of the Gates",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Maw of the Void",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Keeper of the Flame",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Throne of Judgement",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Lost Crown",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "The Golden Stag",
+            "tooltype": "Forgotten God Cult",
+            "category": "G"
+        },
+        {
+            "name": "Sacrifice -- Fed to specially consecrated beasts/Savaged (eaten?) by frenzied bult mob",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Sacrifice -- Pitted against an anointed champion in death arena",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Sacrifice -- Ritually bled upon the sacred altar",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Sacrifice -- Progressively overdosed with mind-expanding drugs",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Sacrifice -- Ritually killed and claimed as anointed spirit-champion",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Sacrifice -- Slain by arcane means (electrocuted/spirit shattered/death-cursed)",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Congregation -- An orgy of pleasure (sex/food/dance/music) and/or pain",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Congregation -- Sacred hymns or prayers without ceasing",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Congregation -- Occupying a sacred nexus point during an astrological confluence",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Congregation -- A pilgrimage to a sacredplace or being in the deathlands/at sea",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Congregation -- A group vision/dream-quest via essences, drugs, or meditation",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Congregation -- A reenactment/dumb-show of a sacred event",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Acquisition -- A collection of eyes/hearts/bloody from mystics or demons",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Acquisition -- The shards of a shattered sacred object (jewel/sword/skull/stone)",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Acquisition -- The origial holy writings of the prophet/master/saint",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Acquisition -- The severed body parts (heads/hands/tongues) of heretics or apostates",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Acquisition -- Properties aligned with sacred geometry or attuned by mystical events",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Acquisition -- The ghosts of prophets/mystics/founders/enemies of the order",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Destruction -- Ritual burning of sacred objects (rune-papers/effigies/flesh/hair)",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Destruction -- Ritual eradication of a spirit or demon",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Destruction -- The breaking of the seals that keep the god from this world",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Destruction -- Shattering of ritual objects/altars/temples sacred to an enemy order",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Destruction -- Eradication of weapons/objects/sites/rituals that can harm the god",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Destruction -- Eradication of social/legal/cultural elements that threate the order",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Consecration -- Purification by bathin in sacred fluid (blood/wine/milk/oil/etc.)",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Consecration -- Purification of the gates that give passage to the god into this world",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Consecration -- Baptism/blessing of an acolyte or object by immersion in a spirit well",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Consecration -- Purify/bless cult folloers with tattoos/scarification/mutilation",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Consecration -- Creation of blessed idols/artwork/ritual spaces/artifacts",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Consecration -- Wards/runes/spirits bound to shun enemies of the order",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Desecration -- Debasement or defilement of one sworn to an enemy order",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Desecration -- Corruption of place/object/ritual/tradition to appropriate its power",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Desecration -- Defilement of place/object/ritual to humiliate another order",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Desecration -- Manipulation of authorities/institutions to appropriate their power",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Desecration -- Corruption of acolytes to prepare them for transformation",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
+        },
+        {
+            "name": "Desecration -- Mindless, pointless chaos/sewing the seeds of anarchy",
+            "tooltype": "Forgotten God Cult",
+            "category": "P"
         }
     ]
 }
