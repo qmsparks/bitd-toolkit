@@ -74,7 +74,18 @@ const getNPC = async() => {
 }
 
 const getGhost = async() => {
+    try {
+        const traits = await db.Component.find({tooltype: 'Ghost', category: 'T' });
+        const effects = await db.Component.find({tooltype: 'Ghost', category: 'SE' });
 
+        return {
+            "T": getRandomComponent(traits),
+            "SE": getRandomComponent(effects)
+        }
+
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 const getDemon = async() => {
