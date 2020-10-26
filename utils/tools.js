@@ -2,10 +2,15 @@ const db = require('../models');
 
 
 
-const getRandomComponent = arr => {
-    const randomIndex = Math.floor(Math.random() * arr.length);
+const getRandomComponent = (arr, num=1) => {
+    const components = []
+    for (let i = 0; i < num; i ++) {
+        const randomIndex = Math.floor(Math.random() * arr.length);
+        components.push(arr[randomIndex].name);
+    }
 
-    return arr[randomIndex].name;
+    return components;
+    
 }
 
 
@@ -55,15 +60,15 @@ const getNPC = async() => {
         const aliases  = await db.Component.find({tooltype: 'NPC', category: 'A'});
 
         return {
-            "L": getRandomComponent(looks),
+            "L": getRandomComponent(looks, 3),
             "G": getRandomComponent(goals),
             "PM": getRandomComponent(methods),
             "P": getRandomComponent(professions),
-            "T": getRandomComponent(traits),
-            "I": getRandomComponent(interests),
+            "T": getRandomComponent(traits, 3),
+            "I": getRandomComponent(interests, 2),
             "Q": getRandomComponent(quirks),
             "H": getRandomComponent(heritages),
-            "S": getRandomComponent(styles),
+            "S": getRandomComponent(styles, 2),
             "N": getRandomComponent(names),
             "FN": getRandomComponent(surnames),
             "A": getRandomComponent(aliases)
@@ -79,7 +84,7 @@ const getGhost = async() => {
         const effects = await db.Component.find({tooltype: 'Ghost', category: 'SE' });
 
         return {
-            "T": getRandomComponent(traits),
+            "T": getRandomComponent(traits, 3),
             "SE": getRandomComponent(effects)
         }
 

@@ -20,7 +20,11 @@ const userSchema = new Schema({
     tools: [{
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Tool'
-    }]
+    }],
+    components: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'Component'
+    }],
 },
 { timestamps: true}
 );
