@@ -19,5 +19,5 @@ mongoose
     module.exports = {
         Tool: require('./tool'),
         Component: require('./component'),
-        // User: require('./user'),
+        User: require('./user'),
     }

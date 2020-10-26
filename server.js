@@ -19,6 +19,7 @@ app.use('/api/v1/tools', routes.tools);
 app.use('/api/v1/components', routes.components);
 
 // ANCHOR Auth Routes
+app.use('/api/v1/auth', routes.auth);
 
 // ANCHOR Users Routes
 
