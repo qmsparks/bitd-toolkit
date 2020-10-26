@@ -109,7 +109,17 @@ const getDemon = async() => {
 }
 
 const getCult = async() => {
+    try {
+        const gods = await db.Component.find({tooltype: 'Forgotten God Cult', category: 'G'});
+        const practices = await db.Component.find({tooltype: 'Forgotten God Cult', category: 'P'});
 
+        return {
+            "G": getRandomComponent(gods),
+            "P": getRandomComponent(practices)
+        }
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 
