@@ -1,0 +1,127 @@
+{
+    "components": [
+        {
+            "name": "Academic or Scholar",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Laborer or Tradesman",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Courier or Sailor",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Merchant or Shopkeeper",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Artist or Writer",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Doctor or Alchemist",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Drug Dealer or Supplier",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Mercenary or Thug",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Fence or Gambler",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Spy or Informant",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Smuggler or Thief",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Crime Boss",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Noble or Official",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Banker or Captain",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Revolutionary or Refugee",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Clergy or Cultist",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Constable or Inspector",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Magistrate or Ward Boss",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Ghost",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Occult Collector",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Vampire or Other Undead",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Demon (disguised)",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Possessed or Hollow",
+            "tooltype": "Score",
+            "category": "CT"
+        },
+        {
+            "name": "Whisper or Cultist",
+            "tooltype": "Score",
+            "category": "CT"
+        }
+    ]
+}
+
+
+

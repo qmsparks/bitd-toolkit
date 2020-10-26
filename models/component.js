@@ -12,6 +12,10 @@ const componentSchema = new Schema ({
         required: true,
         enum: ['Score', 'NPC', 'Ghost', 'Demon', 'Forgotten God Cult' ],
     },
+    category: {
+        type: String,
+        required: true,
+    }
 })
 
 const Component = mongoose.model('Component', componentSchema);
