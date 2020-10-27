@@ -16,8 +16,24 @@ const show = (req, res) => {
 
 }
 
-const create = (req, res) => {
+// FIXME haha oops right now tool generation is just spitting out component names, but I've got this set up that it's looking for component ids
+// obviously gonna have to reconfigure something
+const create = async (req, res) => {
+    try {
+        const user = await db.User.findById(req.userId);
+        const savedTool = await db.Tool.create(req.body);
 
+        user.tools.push(savedTool._id);
+        await user.save();
+
+        res.status(201).json({"tool": savedTool});
+    } catch (error) {
+        console.log(error);
+        return res.status(500).json({
+            status: 500,
+            message: "Something went wrong. Please try again."
+        })
+    }
 }
 
 const update = (req, res) => {
