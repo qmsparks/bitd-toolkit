@@ -132,4 +132,5 @@ const getCult = async() => {
 
 module.exports = {
     generateTool,
+    getRandomComponent,
 }
