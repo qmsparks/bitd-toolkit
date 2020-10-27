@@ -1,5 +1,6 @@
 // ANCHOR imports
 const db = require('../models');
+const utils = require('../utils');
 
 // TODO refactor to async/await
 const index = (req, res) => {
@@ -14,6 +15,21 @@ const index = (req, res) => {
 
 const show = (req, res) => {
 
+}
+
+const random  = async (req, res) => {
+    try {
+        console.log(req.params.tool, req.params.category);
+        const component = await utils.components.getComponent(req.params.tool, req.params.category)
+
+        res.status(200).json({"component": component});
+    } catch (error) {
+        console.log(error);
+        return res.status(500).json({
+            status: 500,
+            message: "Something went wrong. Please try again."
+        })
+    }
 }
 
 const create = async (req, res) => {
@@ -44,6 +60,7 @@ const destroy = (req, res) => {
 module.exports = {
     index,
     show,
+    random,
     create,
     update,
     destroy,

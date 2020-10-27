@@ -1,7 +1,5 @@
 const db = require('../models');
 
-
-
 const getRandomComponent = (arr, num=1) => {
     const components = []
     for (let i = 0; i < num; i ++) {
@@ -10,7 +8,6 @@ const getRandomComponent = (arr, num=1) => {
     }
 
     return components;
-    
 }
 
 
