@@ -1,6 +1,7 @@
 // ANCHOR imports
 const router = require('express').Router();
 const ctrl = require('../controllers');
+const authRequired = require('../middleware/authRequired');
 
 // ANCHOR routes
 // routes currently implemented
@@ -13,6 +14,8 @@ router.post('/', ctrl.components.create);
 router.get('/:id', ctrl.components.show);
 router.put('/:id', ctrl.components.update);
 router.delete('/:id', ctrl.components.destroy);
+
+
 
 // ANCHOR exports
 module.exports = router;
