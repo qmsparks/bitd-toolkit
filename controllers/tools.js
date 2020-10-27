@@ -9,6 +9,7 @@ const index = (req, res) => {
 
 const generate = async (req, res) => {
     const tool = await utils.tools.generateTool(req.params.tool);
+    console.log(tool);
     res.status(200).json({"tool": tool});
 }
 
@@ -16,10 +17,10 @@ const show = (req, res) => {
 
 }
 
-// FIXME haha oops right now tool generation is just spitting out component names, but I've got this set up that it's looking for component ids
-// obviously gonna have to reconfigure something
+// NOTE on the front end, will need to make sure that this request is sending component ids
 const create = async (req, res) => {
     try {
+        console.log(req.body)
         const user = await db.User.findById(req.userId);
         const savedTool = await db.Tool.create(req.body);
 
