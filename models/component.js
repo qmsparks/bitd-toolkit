@@ -15,6 +15,11 @@ const componentSchema = new Schema ({
     category: {
         type: String,
         required: true,
+    },
+    fromBook: {
+        type: Boolean,
+        required: true,
+        default: false,
     }
 })
 

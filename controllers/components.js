@@ -19,7 +19,6 @@ const show = (req, res) => {
 
 const random  = async (req, res) => {
     try {
-        console.log(req.params.tool, req.params.category);
         const component = await utils.components.getComponent(req.params.tool, req.params.category)
 
         res.status(200).json({"component": component});
