@@ -6,6 +6,7 @@ const authRequired = require('../middleware/authRequired');
 // ANCHOR routes
 // routes currently utilized
 router.get('/generate/:tool', ctrl.tools.generate);
+router.get('/details/:tool', ctrl.tools.details);
 router.post('/', authRequired, ctrl.tools.create);
 
 // routes to come

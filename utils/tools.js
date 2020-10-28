@@ -146,9 +146,57 @@ const getCult = async() => {
 }
 
 
+const getDetails = tooltype => {
+    if (tooltype === 'score') {
+        return {
+            "Client or Target": 1,
+            "Job Type": 1,
+            "Twist or Complication": 1,
+            "Connected NPC": 1,
+            "Connected Faction": 1
+        }
+    }
+    if (tooltype === 'npc') {
+        return {
+            "Name": 1,
+            "Alias": 1,
+            "Heritage": 1,
+            "Looks": 3,
+            "Style Touchstones": 2,
+            "Profession": 1,
+            "Goal": 1,
+            "Preferred Method": 1,
+            "Personality Traits": 3,
+            "Interests": 2,
+            "Quirk": 1
+        }
+    }
+    if (tooltype === 'ghost') {
+        return {
+            "Traits": 3,
+            "Secondary Effect": 1
+        }
+    }
+    if (tooltype === 'demon') {
+        return {
+            "Name": 1,
+            "Demonic Feature": 1,
+            "Aspect": 1,
+            "Affinity": 1,
+            "Demonic Desire": 1
+        }
+    }
+    if (tooltype === 'cult') {
+        return {
+            "God": 1,
+            "Cult Practice": 1
+        }
+    }
+}
 
 
 module.exports = {
     generateTool,
     getRandomComponent,
+    getDetails
 }

@@ -9,8 +9,12 @@ const index = (req, res) => {
 
 const generate = async (req, res) => {
     const tool = await utils.tools.generateTool(req.params.tool);
-    console.log(tool);
     res.status(200).json({"tool": tool});
+}
+
+const details = (req, res) => {
+    const details = utils.tools.getDetails(req.params.tool);
+    res.status(200).json({"details": details});
 }
 
 const show = (req, res) => {
@@ -50,6 +54,7 @@ module.exports = {
     index,
     show,
     generate,
+    details,
     create,
     update,
     destroy,
