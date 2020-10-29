@@ -4,7 +4,7 @@ const getRandomComponent = (arr, num=1) => {
     const components = []
     for (let i = 0; i < num; i ++) {
         const randomIndex = Math.floor(Math.random() * arr.length);
-        components.push(arr.splice(randomIndex, 1));
+        components.push(arr.splice(randomIndex, 1)[0]);
     }
 
     return components;
@@ -146,6 +146,7 @@ const getCult = async() => {
 }
 
 
+// FIXME return an array of individual objects instead of one object, just to make the front end a littl easier
 const getDetails = tooltype => {
     if (tooltype === 'score') {
         return {

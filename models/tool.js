@@ -16,10 +16,10 @@ const toolSchema = new Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Component'
     } ],
-    notes: {
+    notes: [{
         type: String,
         required: false
-    },
+    }],
 }, {
     timestamps: true
 });
