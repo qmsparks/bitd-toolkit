@@ -195,9 +195,8 @@ const getDetails = tooltype => {
     }
 }
 
-
 module.exports = {
     generateTool,
     getRandomComponent,
-    getDetails
+    getDetails,
 }
