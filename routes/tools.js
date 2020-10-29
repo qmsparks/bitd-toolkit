@@ -10,12 +10,12 @@ router.get('/generate/:tool', ctrl.tools.generate);
 router.get('/details/:tool', ctrl.tools.details);
 router.post('/', authRequired, ctrl.tools.create);
 router.get('/:id', ctrl.tools.show);
+router.delete('/:id', authRequired, ctrl.tools.destroy);
 
 // routes in progress
 
 // routes to come
 router.put('/:id', authRequired, ctrl.tools.update);
-router.delete('/:id', authRequired, ctrl.tools.destroy);
 
 // ANCHOR exports
 module.exports = router;

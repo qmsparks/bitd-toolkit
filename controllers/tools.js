@@ -57,10 +57,11 @@ const show = async (req, res) => {
 // NOTE on the front end, will need to make sure that this request is sending component ids
 const create = async (req, res) => {
     try {
-        console.log(req.body)
         const user = await db.User.findById(req.userId);
         const savedTool = await db.Tool.create(req.body);
-
+        savedTool.user = req.userId;
+        await savedTool.save();
+        
         user.tools.push(savedTool._id);
         await user.save();
 
@@ -78,8 +79,32 @@ const update = (req, res) => {
 
 }
 
-const destroy = (req, res) => {
+const destroy = async (req, res) => {
+    try {
+        const deletedTool = await db.Tool.findById(req.params.id);
+        
+        if (deletedTool.user == req.userId) {
+            const user = await db.User.findById(req.userId);
+            await user.tools.pull(req.params.id);
+            user.save()
+            await db.Tool.findByIdAndDelete(req.params.id);
 
+            res.status(200).json({"message": "Tool Deleted"});
+        } 
+
+        else {
+            res.status(401).json({
+                status: 401,
+                message: "You are not authorized to delete this tool"
+            })
+        }
+    } catch (error) {
+        console.log(error);
+        return res.status(500).json({
+            status: 500,
+            message: "Something went wrong. Please try again."
+        })
+    }
 }
 
 
