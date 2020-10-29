@@ -13,9 +13,8 @@ router.get('/:id', ctrl.tools.show);
 router.delete('/:id', authRequired, ctrl.tools.destroy);
 
 // routes in progress
-
-// routes to come
 router.put('/:id', authRequired, ctrl.tools.update);
+
 
 // ANCHOR exports
 module.exports = router;

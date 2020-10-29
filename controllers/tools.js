@@ -75,8 +75,29 @@ const create = async (req, res) => {
     }
 }
 
-const update = (req, res) => {
+const update = async (req, res) => {
+    try {
+        const tool = await db.Tool.findById(req.params.id);
+        console.log(req.body);
+        if (tool.user == req.userId) {
+            const updatedTool = await db.Tool.findByIdAndUpdate(req.params.id, req.body, {new: true});
 
+            if (!updatedTool) return res.status(200).json({"message": "No tool with that id found in db"});
+
+            res.status(200).json({"tool": updatedTool});
+        } else {
+            return res.status(401).json({
+                status: 401,
+                message: "You are not authorizied to update this tool"
+            });
+        }
+    } catch (error) {
+        console.log(error);
+        return res.status(500).json({
+            status: 500,
+            message: "Something went wrong. Please try again."
+        })
+    }
 }
 
 const destroy = async (req, res) => {
@@ -93,10 +114,10 @@ const destroy = async (req, res) => {
         } 
 
         else {
-            res.status(401).json({
+            return res.status(401).json({
                 status: 401,
                 message: "You are not authorized to delete this tool"
-            })
+            });
         }
     } catch (error) {
         console.log(error);
