@@ -67,18 +67,18 @@ const getNPC = async() => {
         const components = []
         
         components.push(
+            getRandomComponent(names), 
+            getRandomComponent(surnames), 
+            getRandomComponent(aliases),
+            getRandomComponent(heritages), 
             getRandomComponent(looks, 3), 
+            getRandomComponent(styles, 2), 
+            getRandomComponent(professions), 
             getRandomComponent(goals), 
             getRandomComponent(methods), 
-            getRandomComponent(professions), 
             getRandomComponent(traits, 3), 
             getRandomComponent(interests, 2), 
             getRandomComponent(quirks), 
-            getRandomComponent(heritages), 
-            getRandomComponent(styles, 2), 
-            getRandomComponent(names), 
-            getRandomComponent(surnames), 
-            getRandomComponent(aliases)
             );
 
         return {
@@ -154,53 +154,53 @@ const getCult = async() => {
     }
 }
 
-
-// FIXME return an array of individual objects instead of one object, just to make the front end a littl easier
 const getDetails = tooltype => {
     if (tooltype === 'score') {
-        return {
-            "Client or Target": 1,
-            "Job Type": 1,
-            "Twist or Complication": 1,
-            "Connected NPC": 1,
-            "Connected Faction": 1
-        }
+        return [
+            {category: "Client or Target", numeber: 1},
+            {category: "Job Type", number: 1},
+            {category: "Twist or Complication", number: 1},
+            {category: "Connected NPC", number: 1},
+            {category: "Connected Faction", number: 1}
+        ]
+        
     }
     if (tooltype === 'npc') {
-        return {
-            "Name": 1,
-            "Alias": 1,
-            "Heritage": 1,
-            "Looks": 3,
-            "Style Touchstones": 2,
-            "Profession": 1,
-            "Goal": 1,
-            "Preferred Method": 1,
-            "Personality Traits": 3,
-            "Interests": 2,
-            "Quirk": 1
-        }
+        return [
+            { category: "First Name", number: 1},
+            {category: "Surname", number: 1},
+            {category: "Alias", number: 1},
+            {category: "Heritage", number: 1},
+            {category: "Looks", number: 3},
+            {category: "Style Touchstones", number: 2},
+            {category: "Profession", number: 1},
+            {category: "Goal", number: 1},
+            {category: "Preferred Method", number: 1},
+            {category: "Personality Traits", number: 3},
+            {category: "Interests", number: 2},
+            {category: "Quirk", number: 1}
+        ]
     }
     if (tooltype === 'ghost') {
-        return {
-            "Traits": 3,
-            "Secondary Effect": 1
-        }
+        return [ 
+            {category: "Traits", number: 3},
+            {category: "Secondary Effect", number: 1}
+        ]
     }
     if (tooltype === 'demon') {
-        return {
-            "Name": 1,
-            "Demonic Feature": 1,
-            "Aspect": 1,
-            "Affinity": 1,
-            "Demonic Desire": 1
-        }
+        return [
+            {category: "Name", number: 1},
+            {category: "Demonic Feature", number: 1},
+            {category: "Aspect", number: 1},
+            {category: "Affinity", number: 1},
+            {category: "Demonic Desire", number: 1}
+        ]
     }
     if (tooltype === 'cult') {
-        return {
-            "God": 1,
-            "Cult Practice": 1
-        }
+        return [
+            {category: "God", number: 1},
+            {category: "Cult Practice", number: 1}
+        ]
     }
 }
 
