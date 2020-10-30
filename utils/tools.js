@@ -28,14 +28,17 @@ const getScore = async() => {
         const twists = await db.Component.find({tooltype: 'Score', category: 'TW'});
         const people = await db.Component.find({tooltype: 'Score', category: 'CP'});
         const factions = await db.Component.find({tooltype: 'Score', category: 'CF'})
-        
-        const components = [].concat(
+
+        const components = []
+        components.push(
             getRandomComponent(targets), 
             getRandomComponent(jobs), 
             getRandomComponent(twists), 
             getRandomComponent(people), 
             getRandomComponent(factions)
-            );
+        );
+
+
         return {
             "components": components,
         }
@@ -61,7 +64,9 @@ const getNPC = async() => {
         const aliases  = await db.Component.find({tooltype: 'NPC', category: 'A'});
 
 
-        const components = [].concat(
+        const components = []
+        
+        components.push(
             getRandomComponent(looks, 3), 
             getRandomComponent(goals), 
             getRandomComponent(methods), 
@@ -89,7 +94,9 @@ const getGhost = async() => {
         const traits = await db.Component.find({tooltype: 'Ghost', category: 'T' });
         const effects = await db.Component.find({tooltype: 'Ghost', category: 'SE' });
 
-        const components = [].concat(
+        const components = [];
+        
+        components.push(
             getRandomComponent(traits, 3),
             getRandomComponent(effects)
         );
@@ -111,7 +118,8 @@ const getDemon = async() => {
         const affinities= await db.Component.find({tooltype: 'Demon', category: 'AF'});
         const desires = await db.Component.find({tooltype: 'Demon', category: 'D'});
 
-        const components = [].concat(
+        const components = [];
+        components.push(
             getRandomComponent(names),
             getRandomComponent(features),
             getRandomComponent(aspects),
@@ -132,7 +140,8 @@ const getCult = async() => {
         const gods = await db.Component.find({tooltype: 'Forgotten God Cult', category: 'G'});
         const practices = await db.Component.find({tooltype: 'Forgotten God Cult', category: 'P'});
 
-        const components = [].concat(
+        const components = [];
+        components.push(
             getRandomComponent(gods),
             getRandomComponent(practices)
         );
