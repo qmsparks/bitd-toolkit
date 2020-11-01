@@ -17,11 +17,28 @@ const index = async (req, res) => {
         console.log(error);
         return res.status(500).json({
             status: 500,
-            message: "Something went wrong. please try again."
+            message: "Something went wrong. Please try again."
         })
     }
 
 
+}
+
+const filter = async (req, res) => {
+    try {
+        const filteredTools = await db.Tool.find({user: req.userId, type: req.params.tool})
+        .populate('components');
+
+        console.log(filteredTools);
+        res.status(200).json({"tools": filteredTools});
+        
+    } catch (error) {
+        console.log(error);
+        return res.status(500).json({
+            status: 500,
+            message: "Something went wrong. Please try again."
+        })
+    }
 }
 
 
@@ -131,6 +148,7 @@ const destroy = async (req, res) => {
 
 module.exports = {
     index,
+    filter,
     show,
     generate,
     details,

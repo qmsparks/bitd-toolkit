@@ -157,7 +157,7 @@ const getCult = async() => {
 const getDetails = tooltype => {
     if (tooltype === 'score') {
         return [
-            {category: "Client or Target", numeber: 1},
+            {category: "Client or Target", number: 1},
             {category: "Job Type", number: 1},
             {category: "Twist or Complication", number: 1},
             {category: "Connected NPC", number: 1},
