@@ -38,7 +38,6 @@ const getScore = async() => {
             getRandomComponent(factions)
         );
 
-
         return {
             "components": components,
         }

@@ -16,10 +16,10 @@ const toolSchema = new Schema({
         enum: ['Score', 'NPC', 'Ghost', 'Demon', 'Forgotten God Cult'],
         required: true
     },
-    components: [ {
-        type: mongoose.Schema.Types.ObjectId,
-        ref: 'Component'
-    } ],
+    components: [
+        [String]
+    ],
+    componentTypes: [String],
     notes: [{
         type: String,
         required: false

@@ -13,8 +13,8 @@ const index = (req, res) => {
     })
 }
 
-const show = (req, res) => {
-
+const show = async (req, res) => {
+    
 }
 
 const random  = async (req, res) => {

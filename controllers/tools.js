@@ -5,12 +5,9 @@ const utils = require('../utils');
 
 const index = async (req, res) => {
     try {
-        const foundUser = await db.User.findById(req.userId)
-            .populate({
-                path: 'tools',
-                populate: {path: 'components'}
-            });
-            res.status(200).json({"tools": foundUser.tools});
+        const tools = await db.Tool.find({user: req.userId});
+
+            res.status(200).json({"tools": tools});
 
 
     } catch (error) {
@@ -21,13 +18,11 @@ const index = async (req, res) => {
         })
     }
 
-
 }
 
 const filter = async (req, res) => {
     try {
-        const filteredTools = await db.Tool.find({user: req.userId, type: req.params.tool})
-        .populate('components');
+        const filteredTools = await db.Tool.find({user: req.userId, type: req.params.tool});
 
         console.log(filteredTools);
         res.status(200).json({"tools": filteredTools});
@@ -54,8 +49,7 @@ const details = (req, res) => {
 
 const show = async (req, res) => {
     try {
-        const foundTool = await db.Tool.findById(req.params.id)
-            .populate('components');
+        const foundTool = await db.Tool.findById(req.params.id);
 
         if (!foundTool) return res.status(200).json({"message": "No tool with that id found in db"});
 
@@ -71,9 +65,11 @@ const show = async (req, res) => {
     }
 }
 
-// NOTE on the front end, will need to make sure that this request is sending component ids
+
 const create = async (req, res) => {
     try {
+        console.log(req.body);
+        console.log(req.body.components);
         const user = await db.User.findById(req.userId);
         const savedTool = await db.Tool.create(req.body);
         savedTool.user = req.userId;
