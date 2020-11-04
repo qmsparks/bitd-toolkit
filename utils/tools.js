@@ -4,7 +4,9 @@ const getRandomComponent = (arr, num=1) => {
     const components = []
     for (let i = 0; i < num; i ++) {
         const randomIndex = Math.floor(Math.random() * arr.length);
-        components.push(arr.splice(randomIndex, 1)[0]);
+        const component = arr.splice(randomIndex, 1)[0];
+
+        components.push(component);
     }
 
     return components;

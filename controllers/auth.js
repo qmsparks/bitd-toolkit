@@ -1,6 +1,7 @@
 const bcrypt = require('bcryptjs');
 const db = require('../models');
-const jwt = require('jsonwebtoken');
+// const jwt = require('jsonwebtoken');
+const utils = require('../utils');
 
 
 // ANCHOR register route
@@ -40,15 +41,9 @@ const login = async (req, res) => {
         if(!match) {
             return res.send({message: "Email or password incorrect"});
         } else {
-            const signedJwt = await jwt.sign(
-                {
-                    _id: foundUser._id,
-                },
-                "dev_key",
-                {
-                    expiresIn: "24h",
-                }
-            );
+
+            const signedJwt = await utils.token.send(foundUser._id);
+
             return res.status(200).json({
                 status: 200,
                 message: "Success",
@@ -66,8 +61,28 @@ const login = async (req, res) => {
     }
 }
 
+const extend = async (req, res) => {
+    try {
+        const signedJwt = await utils.token.send(req.userId);
+
+        return res.status(200).json({
+            status: 200,
+            message: "Success",
+            id: req.userId,
+            signedJwt
+        });
+    } catch (error) {
+        console.log(error);
+        return res.status(500).json({
+            status: 500,
+            message: "Something went wrong. Please try again."
+        })
+    }
+}
+
 
 module.exports = {
     register,
     login, 
+    extend
 }
