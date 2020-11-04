@@ -1,5 +1,11 @@
 const jwt = require('jsonwebtoken');
 
+
+/**
+ * Receives a valid user ID as an argument and returns a new JWT for persistent auth
+ * @function send
+ * @param {*} userId 
+ */
 const send = userId => {
     const signedJwt = jwt.sign(
         {

@@ -23,7 +23,7 @@ const componentSchema = new Schema ({
     fromBook: {
         type: Boolean,
         required: true,
-        default: false,
+        default: true,
     }
 })
 

@@ -4,7 +4,7 @@ const ctrl = require('../controllers');
 const authRequired = require('../middleware/authRequired');
 
 // ANCHOR routes
-// routes currently utilized
+
 router.get('/', authRequired, ctrl.tools.index);
 router.get('/filter/:tool', authRequired, ctrl.tools.filter);
 router.get('/generate/:tool', ctrl.tools.generate);

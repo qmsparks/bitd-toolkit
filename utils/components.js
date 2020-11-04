@@ -1,7 +1,12 @@
 const db = require('../models');
 const { getRandomComponent } = require('./tools');
 
-
+/**
+ * Switchboard for setting which tooltype is in question when the client requests a random component
+ * @function getComponent
+ * @param {*} tool 
+ * @param {*} category 
+ */
 const getComponent = (tool, category) => {
     let tooltype = '';
 
@@ -11,10 +16,16 @@ const getComponent = (tool, category) => {
     if (tool === 'demon') tooltype = 'Demon';
     if (tool === 'cult') tooltype = 'Forgotten God Cult';
 
-    return getComponentType(tooltype, category);
+    return getComponentList(tooltype, category);
 }
 
-const getComponentType = async (tooltype, category) => {
+/**
+ * Receives arguments from getComponent and queries the database for an array of applicable components
+ * @function getComponentList
+ * @param {*} tooltype 
+ * @param {*} category 
+ */
+const getComponentList = async (tooltype, category) => {
     try {
         const components = await db.Component.find({tooltype: tooltype, category: category});
         return getRandomComponent(components);

@@ -1,5 +1,11 @@
 const db = require('../models');
 
+/**
+ * Receives an array of components and randomly returns a specified number, defaulting to 1
+ * @function getRandomComponent
+ * @param {*} arr 
+ * @param {*} num 
+ */
 const getRandomComponent = (arr, num=1) => {
     const components = []
     for (let i = 0; i < num; i ++) {
@@ -13,6 +19,11 @@ const getRandomComponent = (arr, num=1) => {
 }
 
 
+/**
+ * Receives url parameter as a string and calls the appropriate function
+ * @function generateTool
+ * @param {*} str 
+ */
 const generateTool = str => {
     if (str === 'score') return getScore();
     if (str === 'npc') return getNPC();
@@ -21,7 +32,10 @@ const generateTool = str => {
     if (str === 'cult') return getCult();
 }
 
-
+/**
+ * Returns an array of Score components
+ * @function getScore
+ */
 const getScore = async() => {
     try {
 
@@ -49,6 +63,10 @@ const getScore = async() => {
     }
 }
 
+/**
+ * Returns an array of NPC components
+ * @function getNPC
+ */
 const getNPC = async() => {
     try {
         const looks = await db.Component.find({tooltype: 'NPC', category: 'L'});
@@ -90,6 +108,10 @@ const getNPC = async() => {
     }
 }
 
+/**
+ * Returns an array of Ghost components
+ * @function getGhost
+ */
 const getGhost = async() => {
     try {
         const traits = await db.Component.find({tooltype: 'Ghost', category: 'T' });
@@ -111,6 +133,10 @@ const getGhost = async() => {
     }
 }
 
+/**
+ * Returns an array of Demon components
+ * @function getDemon
+ */
 const getDemon = async() => {
     try {
         const names = await db.Component.find({tooltype: 'Demon', category: 'N'});
@@ -136,6 +162,10 @@ const getDemon = async() => {
     }
 }
 
+/**
+ * Returns an array of Forgotten God Cult components
+ * @function getCult
+ */
 const getCult = async() => {
     try {
         const gods = await db.Component.find({tooltype: 'Forgotten God Cult', category: 'G'});
@@ -155,6 +185,11 @@ const getCult = async() => {
     }
 }
 
+/**
+ * Receives url parameter as a string and returns information about corresponding default tool configuration
+ * @function @getDetails
+ * @param {*} tooltype 
+ */
 const getDetails = tooltype => {
     if (tooltype === 'score') {
         return [

@@ -1,5 +1,6 @@
 const db = require('../models');
 
+
 const show = async (req, res) => {
     try {
         const foundUser = await db.User.findById(req.userId);
